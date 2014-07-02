@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Demo</title>
+    <script type="text/javascript">
+        var o = new String("Hello Wtring");
+
+        function teste() {
+            var span = document.getElementById("text");
+            span.innerHTML = o.blink();
+        }
+    </script>
+</head>
+<body>
+    <button type="button" value="Click" onclick="teste()">Bouton</button>
+    <span style="color: #243fff;" id="text"></span>
+</body>
+</html>
